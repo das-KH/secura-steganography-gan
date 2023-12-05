@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+html, body, [class*="css"] {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+    color: #091747;
+}
+
+.stApp > header {
+    background-color: transparent;
+}
+
+.stApp {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, #725454 80%, rgb(33, 88, 88) 42%, #3c343e 10%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+.css-1aumxhk {
+    background-color: #dddddd;
+    background-image: none;
+    color: #ffffff
+    }
