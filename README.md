@@ -8,6 +8,29 @@ Secura is a TensorFlow implementation that enables the steganography of RGB imag
 - Images are further categorized into Cover-images and Secret-images. A pair of 4000 images was used to train the model.
 - Training was conducted on an Nvidia A100 card for 200 epochs.
 
+
+
+### Samples
+
+Here are some sample images and their corresponding results:
+#### Sample 1
+
+| Description | Image |
+|-------|-------------|
+|Original Cover and Secret Images  | ![Original Cover and Secret Image 1](samples/original1.jpg) | 
+| Results | ![Original Image 2](samples/output1.jpg) |
+
+#### Sample 2 
+
+| Description | Image |
+|-------|-------------|
+|Original Cover and Secret Images  | ![Original Cover and Secret Image 1](samples/original2.jpg) | 
+| Results | ![Original Image 2](samples/output2.jpg) |
+
+
+
+
+
 ## Usage
 - Install the required dependencies specified in `requirements.txt` preferably in a new environment
 - Jupyter notebook: Includes the implementation of the GAN.

@@ -1,10 +1,5 @@
 dataset/
-*.JPG
-*.jpg
-*.jpeg
-*.png
-*JPEG
-*.png
+loss_plots/
 .ipynb_checkpoints/
 .dockerignore
 *.pkl
